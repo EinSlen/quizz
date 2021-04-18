@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz du débutant - joue </title>
+    <link rel="stylesheet" href="../css/quizz.css">
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="jsutify-center flex-colum">
+
+            <h2 id="question">Question 1 : </h2>
+            <h2 id="question2">Question 2 : </h2>
+            <h2 id="question3">Question 3 : </h2>
+            <h2 id="question4">Question 4 :</h2>
+            <h2 id="question5">Question 5 : </h2>
+            <h2 id="question6">Question 6 : </h2>
+            <h2 id="question7">Question 7 :</h2>
+            <h2 id="question8">Question 8 : </h2>
+            <h2 id="question9">Question 9 : </h2>
+            <h2 id="question10">Question 10 : </h2>
+
+        <div id="content">
+            <div class="choice-container" onclick="initChoise1()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise2()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise2()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise2()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+           
+        </div>
+
+        <div id="content2">
+            <div class="choice-container" onclick="initChoise3()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise4()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise4()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise4()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+           
+        </div>
+
+        <div id="content3">
+            <div class="choice-container" onclick="initChoise5()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise6()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise6()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise6()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+           
+        </div>
+
+        <div id="content4">
+            <div class="choice-container" onclick="initChoise7()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise8()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise8()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise8()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+           
+        </div>
+
+        <div id="content5">
+            <div class="choice-container" onclick="initChoise9()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise10()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise10()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise10()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+            
+        </div>
+
+        <div id="content6">
+            <div class="choice-container" onclick="initChoise12()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise12()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise11()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise12()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+          
+        </div>
+
+        <div id="content7">
+            <div class="choice-container" onclick="initChoise13()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise14()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise14()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise14()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+            
+        </div>
+
+        <div id="content8">
+            <div class="choice-container" onclick="initChoise15()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise16()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise16()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise16()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+           
+        </div>
+
+        <div id="content9">
+            <div class="choice-container" onclick="initChoise17()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise18()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise18()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise18()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+
+        </div>
+
+        <div id="content10">
+            <div class="choice-container" onclick="initChoise19()">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text">Choix 1</p>
+            </div>
+            <div class="choice-container" onclick="initChoise20()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 2</p>
+            </div>
+            <div class="choice-container" onclick="initChoise20()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 3</p>
+            </div>
+            <div class="choice-container" onclick="initChoise20()">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choix 4</p>
+            </div>
+           
+        </div>
+
+        <div id="finish">
+            <h1 id="result">Tu peux réussir !</h1>
+        </div>
+
+
+        <div id="score">
+            <p class="choice-prefix" id="top">Votre score : 0/10</p>
+            <p class="choice-text" id="rep">Reste 9 Questions !</p>
+        </div>
+
+        <div id="rediv">
+            <h3 class="ree" id="re" onclick="reset()">Clique pour réésayer !</h3>
+        </div>
+    </div>
+    
+    <script src="../js/game.js"></script>
+
+
+    </body>
+</html>
