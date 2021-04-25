@@ -3,25 +3,11 @@
 var cont = 0;
 var question = 9;
 
-document.getElementById("question2").style.display = 'none';
-document.getElementById("question3").style.display = 'none';
-document.getElementById("question4").style.display = 'none';
-document.getElementById("question5").style.display = 'none';
-document.getElementById("question6").style.display = 'none';
-document.getElementById("question7").style.display = 'none';
-document.getElementById("question8").style.display = 'none';
-document.getElementById("question9").style.display = 'none';
-document.getElementById("question10").style.display = 'none';
+for(var i = 1; i <= 10; i++) {
+    document.getElementById("question" + i).style.display = 'none';
+    document.getElementById("content" + i).style.display = 'none';
+}
 
-document.getElementById("content2").style.display = 'none';
-document.getElementById("content3").style.display = 'none';
-document.getElementById("content4").style.display = 'none';
-document.getElementById("content5").style.display = 'none';
-document.getElementById("content6").style.display = 'none';
-document.getElementById("content7").style.display = 'none';
-document.getElementById("content8").style.display = 'none';
-document.getElementById("content9").style.display = 'none';
-document.getElementById("content10").style.display = 'none';
 document.getElementById("finish").style.display = 'none';
 document.getElementById('re').style.display = 'none';
 
@@ -498,25 +484,10 @@ function reset() {
         cont = 0;
         console.log(question + " " + cont)
 
-        document.getElementById("question2").style.display = 'none';
-        document.getElementById("question3").style.display = 'none';
-        document.getElementById("question4").style.display = 'none';
-        document.getElementById("question5").style.display = 'none';
-        document.getElementById("question6").style.display = 'none';
-        document.getElementById("question7").style.display = 'none';
-        document.getElementById("question8").style.display = 'none';
-        document.getElementById("question9").style.display = 'none';
-        document.getElementById("question10").style.display = 'none';
-
-        document.getElementById("content2").style.display = 'none';
-        document.getElementById("content3").style.display = 'none';
-        document.getElementById("content4").style.display = 'none';
-        document.getElementById("content5").style.display = 'none';
-        document.getElementById("content6").style.display = 'none';
-        document.getElementById("content7").style.display = 'none';
-        document.getElementById("content8").style.display = 'none';
-        document.getElementById("content9").style.display = 'none';
-        document.getElementById("content10").style.display = 'none';
+        for(var i = 1; i <= 10; i++) {
+        document.getElementById("question" + i).style.display = 'none';
+        document.getElementById("content" + i).style.display = 'none';
+    }
         document.getElementById("finish").style.display = 'none';
 
         document.getElementById('re').style.display = 'none';
